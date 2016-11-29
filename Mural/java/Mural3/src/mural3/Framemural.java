@@ -146,7 +146,7 @@ public class Framemural extends javax.swing.JFrame {
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
         String aux = new Date().toString();
         String[] mud = aux.split(" ");
-        String formal = mud[2].concat(" ").concat(mud[1]).concat(" ").concat(mud[5]).concat(" às ").concat(mud[3]);
+        String formal = mud[2].concat(" ").concat(mud[1]).concat(" ").concat(mud[5]).concat(" as ").concat(mud[3]);
         String usuario = jEditorPane1.getText();
         String conteudo = jTextArea2.getText();
         System.out.println(conteudo);
